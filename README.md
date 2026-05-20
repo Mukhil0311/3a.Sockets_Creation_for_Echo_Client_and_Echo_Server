@@ -12,7 +12,7 @@ Sockets Links.
 
 SERVER SIDE:
 
-```
+```py
 import socket
 s = socket.socket()
 s.bind(('localhost', 8000))
@@ -40,7 +40,7 @@ s.close()
 
 CLIENT SIDE:
 
-```
+```py
 import socket
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
